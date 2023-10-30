@@ -35,11 +35,11 @@ export default function Home() {
           } as React.CSSProperties
         }
       >
-        <PageHeader />
-        <div className="grid place-content-center pt-10 border-2 border-gray-600/50 shadow-2xl rounded-2xl m-4">
-                <p className="text-8xl font-bold z-20 outfitters pb-4">Welcome to ToggleTunes</p>
+        {/* <PageHeader /> */}
+        {/* <div className="grid place-content-center pt-10 border-2 border-gray-600/50 shadow-2xl rounded-2xl m-4">
+                <p className="text-3xl xl:text-6xl 2xl:text-8xl font-bold z-20 outfitters pb-4">Welcome to ToggleTunes</p>
                 <p className="text-4xl mx-auto z-20 my-10">Streaming now!</p>
-              </div>
+              </div> */}
         <div className="relative z-10 px-6">
           <Greeting />
           <div className="grid gap-y-4 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 mt-6">
